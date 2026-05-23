@@ -31,6 +31,7 @@ To reproduce the results from the paper, a 16 GB GPU is required.
     conda env create -f environment_novis.yaml
     conda activate droidenv
     pip install evo --upgrade --no-binary evo
+    pip install thirdparty/pytorch_scatter --no-build-isolation
     ```
     If you get stuck at "Solving environment", try to use our detailed exported environment under misc/environment_detailed_vis.yaml (with visualization) or misc/environment_detailed.yaml (without visualization), instead of environment_novis.yaml.
 
